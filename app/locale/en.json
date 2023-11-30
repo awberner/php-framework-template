@@ -1,0 +1,11 @@
+{
+  "welcome": "Welcome to our website!",
+  "login": "Login",
+  "username": "Username",
+  "password": "Password",
+  "error_valid_login": "Invalid username or password.",
+  "users": "Users",
+  "user": "User",
+  "id": "Id",
+  "name": "Name"
+}

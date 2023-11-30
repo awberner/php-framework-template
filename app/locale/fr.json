@@ -1,0 +1,11 @@
+{
+  "welcome": "Bienvenue sur mon site web!",
+  "login": "Login",
+  "username": "Nom d'utilisateur",
+  "password": "Mot de passe",
+  "error_valid_login": "Nom d'utilisateur ou mot de passe invalide",
+  "users": "Utilisateurs",
+  "user": "Utilisateur",
+  "id": "Identifiant",
+  "name": "Nom"
+}
