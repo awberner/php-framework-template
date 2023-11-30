@@ -36,11 +36,11 @@ class App
     {
         $REQUEST_URI = explode('/', substr(filter_input(INPUT_SERVER, 'REQUEST_URI'), 1));
 
-        if (Config::SHIFT_PUBLIC_URL && !empty($REQUEST_URI) && $REQUEST_URI[0] === 'public') {
+        if(Config::SHIFT_URL && !empty($REQUEST_URI)) {
             array_shift($REQUEST_URI);
         }
 
-        if(Config::SHIFT_URL && !empty($REQUEST_URI)) {
+        if (Config::SHIFT_PUBLIC_URL && !empty($REQUEST_URI) && $REQUEST_URI[0] === 'public') {
             array_shift($REQUEST_URI);
         }
 
